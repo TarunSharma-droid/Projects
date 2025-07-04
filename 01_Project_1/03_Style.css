@@ -1,0 +1,81 @@
+*{
+            margin : 0;
+            padding : 0;
+
+        }
+        .header{
+            background-color:grey;
+            display : flex;
+            align-items : center;
+            justify-content: center;
+            height : 12vh;
+            border-bottom : solid;
+            border-color : black;
+            
+        }
+
+        #Home{
+            margin : 10px;
+            border-style : solid;
+            border-color : black;
+            border-radius : 10px;
+            padding : 10px;
+            color : black ;
+            background-color: red;
+        }
+        #YouTube{
+            margin : 10px;
+            border-style : solid;
+            border-color : black;
+            border-radius : 10px;
+            padding : 10px;
+            color : black;
+            background-color: red;
+        }
+
+        #parent{
+            height : 88vh;
+            display : flex;
+            align-items : center;
+            justify-content: center;
+            
+        }
+        
+        #child1{
+           display : flex; 
+           justify-content: center;
+           
+        }
+        #child2{
+           display : flex; 
+           justify-content: center;
+           
+        }
+        #child3{
+           display : flex; 
+           justify-content: center;
+           
+        }
+
+        .switches{
+            border-style : solid;
+            border-color : black;
+            width : 80px;
+            height : 80px;
+            margin : 8px;
+        }
+        #box1{    
+            background-color: lightgreen;   
+        }
+        #box2{    
+            background-color:orange;
+        }
+        #box3{    
+            background-color: lightblue;
+        }
+        #box4{
+            background-color: yellow;
+        }
+        #box5{
+            background-color: red;
+        }
