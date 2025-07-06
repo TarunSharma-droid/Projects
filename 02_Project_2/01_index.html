@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href = "02_style.css">
+    <script type = "module" src="03_script.js" ></script>   
+
+
+</head>
+<body  >
+
+    <!-- Creating a header-->
+    <nav class = "header" >
+        <div id = "Home"> <b>Home</b></div>
+        <div id = "YouTube" ><b>Youtube Channel</b></div>
+    </nav>
+
+
+    
+    <!-- Making the middle content-->
+    <div id ="parent">        
+            <div id = box>
+                <h1 style="padding : 20px"> BMI Calculator</h1>
+                <form>
+                        <p  style="padding-bottom : 10px"> <b>Height in cm : </b> 
+                            <input id ="height" type ="text">
+                        </p>
+                        <p style="padding-bottom : 10px"> <b>Weight in kg : </b>
+                            <input id ="weight" type ="text">
+                        </p>
+                        <button style="padding: 10px  ; border-radius:5px"> Calculate</button> <!-- Submit button-->
+
+                        <div id="result" style="padding-bottom : 10px ; padding-top : 10px " > </div>
+
+                        <div id ="guide" style="padding : 10px">
+                            <h2 style="padding-bottom : 5px"> BMI Weight Guide :</h3>
+                            <h3 style ="font-family: Arial, Helvetica, sans-serif;" > Under Weight = Less than 18.6</h5>
+                            <h3 style ="font-family: Arial, Helvetica, sans-serif;"> Normal Range = 18.6 to 24.9</h5>
+                            <h3 style ="font-family: Arial, Helvetica, sans-serif;"> OverWeight = Greater than 24.9</h5>
+                        </div>
+                </form>
+            </div>
+    </div>
+    
+
+
+
+</body>
+</html>
