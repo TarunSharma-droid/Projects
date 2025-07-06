@@ -7,7 +7,7 @@ const clock = document.getElementById('box2')
 
 
 
-setInterval(function(){ // setInterval have the two parameters.
+setInterval(function(){ // setInterval have the two parameters. this function have a special feature that it runs again and again after a time given
 
     let date= new Date()
 
