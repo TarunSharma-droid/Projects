@@ -17,19 +17,23 @@ const random_color = function(){
 }
 
 
-const set_color = document.getElementById('start')
-set_color.addEventListener('click',function(){
+let work;
+
+const start = document.getElementById('start')
+start.addEventListener('click',function(){
 
     const body = document.getElementById('main_body')
-    const background = body.style.backgroundColor
+     
+            work =  setInterval( function(){
+                
+                document.body.style.backgroundColor  =  random_color()
 
-    background.setInterval(color,1000)
+            },1000)
 })
 
-const stopKaro = document.getElementById('stop')
-stopKaro.addEventListener('click',function(){
+  
+const stop = document.getElementById('stop')
+stop.addEventListener('click',function(){
 
-    clearInterval(kamkaro)
+    clearInterval(work)
 })
-             
-        
